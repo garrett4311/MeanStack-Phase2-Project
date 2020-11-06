@@ -1,0 +1,101 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "quiz": [
+    {
+      "question": "Which Pokemon is known for carrying a leek?",
+      "a": "Farfetch'd",
+      "b": "Pikachu",
+      "c": "Squirtle",
+      "d": "Oddish",
+      "answer": "a"
+    },
+    {
+      "question": "Which of these pokemon is not an electric type??",
+      "a": "Jolteon",
+      "b": "Pikachu",
+      "c": "Porygon",
+      "d": "Voltorb",
+      "answer": "c"
+    },
+    {
+      "question": "Which of these pokemon is a starter Pokemon in the Kanto Region?",
+      "a": "Ghastly",
+      "b": "Torchic",
+      "c": "Togepi",
+      "d": "Squirtle",
+      "answer": "d"
+    },
+    {
+      "question": "How many pokemon were available in Generation 1?",
+      "a": "100",
+      "b": "138",
+      "c": "151",
+      "d": "150",
+      "answer": "c"
+    },
+    {
+      "question": "How many gym badges can a pokemon trainer obtain in the Kanto Region?",
+      "a": "8",
+      "b": "10",
+      "c": "5",
+      "d": "16",
+      "answer": "a"
+    },
+    {
+      "question": "Which Pokemon evolves from Eevee?",
+      "a": "Lapras",
+      "b": "Espeon",
+      "c": "Houndoom",
+      "d": "Mewtwo",
+      "answer": "b"
+    },
+    {
+      "question": "Which evolution stone allows Vulpix to evolve?",
+      "a": "Dusk Stone",
+      "b": "Water Stone",
+      "c": "Fire Stone",
+      "d": "Leaf Stone",
+      "answer": "c"
+    },
+    {
+      "question": "What is the name of the newest pokemon region",
+      "a": "Kanto",
+      "b": "Galar",
+      "c": "Hoenn",
+      "d": "Johto",
+      "answer": "b"
+    },
+    {
+      "question": "Of which type are there the least pokemon?",
+      "a": "Water",
+      "b": "Normal",
+      "c": "Dragon",
+      "d": "Ghost",
+      "answer": "d"
+    },
+    {
+      "question": "Which of these pokemon is viewed as the mascot of the Pokemon Company?",
+      "a": "Eevee",
+      "b": "Pikachu",
+      "c": "Vulpix",
+      "d": "Clefairy",
+      "answer": "b"
+    }
+  ]
+}

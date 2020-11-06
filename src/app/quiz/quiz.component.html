@@ -1,0 +1,26 @@
+<div class="container-fluid row">
+    <div class="col-6">
+        <div *ngFor="let q of quizzInfo; index as i">
+            <h3>Question {{i+1}})</h3>
+            <h3>{{q.question}}</h3>
+            <form [formGroup]="quizRef" (ngSubmit)="submitAnswer();">
+                <input type=radio formControlName="userAnswer" value="a">
+                <label>A) {{q.a}}</label><br>
+                <input type=radio formControlName="userAnswer" value="b">
+                <label>B) {{q.b}}</label><br>
+                <input type=radio formControlName="userAnswer" value="c">
+                <label>C) {{q.c}}</label><br>
+                <input type=radio formControlName="userAnswer" value="d">
+                <label>D) {{q.d}}</label><br>
+                <button type="submit" value="submit">Submit</button>
+                <hr>
+            </form>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary" (click)="checkAnswers()">Check Answers</button>
+        </div>
+    </div>
+    <div class="col-6">
+        <h3 [hidden]="hideResults">Results: {{numCorrect}}/10 correct!</h3>
+    </div>
+</div>

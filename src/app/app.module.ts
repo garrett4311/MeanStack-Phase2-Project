@@ -2,17 +2,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { QuizComponent } from './quiz/quiz.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent
+    QuizComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [QuizComponent]
 })
 export class AppModule { }
